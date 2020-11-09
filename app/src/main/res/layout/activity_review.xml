@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ui.home.HomeFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/b">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/b">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="600sp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/bg_home"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginRight="19dp"
+                    android:text="Thank you for trusting Service Mate"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    tools:ignore="DuplicateIds"
+                    android:gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="19dp"
+                    android:textAlignment="center"
+                    android:text="Leave a Review for Suasa Suria Auto Sdn. Bhd."
+                    android:layout_marginRight="19dp"
+                    android:textColor="@color/Dblue"
+                    android:textSize="15dp"
+                    tools:ignore="DuplicateIds"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="39dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:textSize="12dp"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:layout_marginRight="39dp"
+                    android:background="#F0F0F0"
+                    android:ems="10"
+                    android:text="Nice sevice ! ..." />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:numStars="5"
+                    android:saveEnabled="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/paid"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/b"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/texasxzscastView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:text="Save"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textStyle="italic"
+            tools:ignore="DuplicateIds"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

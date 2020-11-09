@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/sm" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="44sp"
+            android:gravity="left"
+            android:text="Hi Mate !"
+            android:textColor="@color/b"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44sp"
+            android:gravity="left"
+            android:text="Welcome to ServiceMate"
+            android:textColor="#414453"
+            android:textSize="15dp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="44sp"
+            android:layout_marginRight="44sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="Forgot your password? No worries!"
+            android:textColor="#87939A"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/textasxcxaView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginRight="44dp"
+            android:text="Enter your email and we will send you instruction to reset it"
+            android:textColor="#313335"
+            android:textSize="16dp"
+            tools:ignore="DuplicateIds"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="44dp"
+            android:background="@drawable/line"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:selectAllOnFocus="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/fPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginRight="44dp"
+            android:background="@color/b"
+            android:text="Enter"
+            android:textColor="#FFF" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

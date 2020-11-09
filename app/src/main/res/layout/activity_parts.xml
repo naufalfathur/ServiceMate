@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/smw" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="120dp"
+            android:layout_height="1000dp"
+            android:background="@drawable/bg_home"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="left"
+                android:text="Parts Shop"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/Dblue"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                tools:ignore="DuplicateIds,RtlCompat" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:src="@drawable/tires" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/radio_pirates"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="BridgeStone RM200/wheels"
+                    android:onClick="onRadioButtonClicked"
+                    tools:ignore="OnClick" />
+                <RadioButton android:id="@+id/radio_ninjas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Continental RM180/wheels"
+                    android:layout_marginRight="10dp"
+                    android:onClick="onRadioButtonClicked"
+                    tools:ignore="OnClick"/>
+                <RadioButton android:id="@+id/radio_ninjas2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yokohama RM220/wheels"
+                    android:onClick="onRadioButtonClicked"
+                    tools:ignore="OnClick"/>
+            </RadioGroup>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:src="@drawable/accu" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/radio_pirates2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="VMAX RM200"
+                    android:onClick="onRadioButtonClicked"
+                    tools:ignore="OnClick" />
+                <RadioButton android:id="@+id/radio_ninjas3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Optima RM180"
+                    android:layout_marginRight="10dp"
+                    android:onClick="onRadioButtonClicked"
+                    tools:ignore="OnClick"/>
+                <RadioButton android:id="@+id/radio_ninjas4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACDELCO RM220"
+                    android:onClick="onRadioButtonClicked"
+                    tools:ignore="OnClick"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/paid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yell"
+                android:onClick="apply"
+                android:orientation="vertical"
+                tools:ignore="DuplicateIds,OnClick">
+
+                <TextView
+                    android:id="@+id/textView3afr33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="19dp"
+                    android:text="Buy Parts"
+                    android:textAlignment="center"
+                    android:textColor="@color/b"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    tools:ignore="DuplicateIds"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</ScrollView>

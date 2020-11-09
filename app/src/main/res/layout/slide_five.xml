@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="60dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="What other users saying?"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="''With this app I can manage my car easily and never skipped my service routine!!, nice app would use this forever''- Shia L"
+            android:textColor="#FFF"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="''I love being able to buy cheap parts here and be able to find the correct parts for my vehicle easily'' - Ramyna"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="14dp"
+            android:gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="60dp"
+            android:background="@color/blue"
+            android:onClick="start"
+            android:text="Lets Get Started"
+            android:textColor="#000" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

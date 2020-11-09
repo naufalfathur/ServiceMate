@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/sm" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="44sp"
+            android:layout_marginRight="44sp"
+            android:gravity="center"
+            android:text="Thank you for joining us!"
+            android:textColor="@color/b"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/check" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44sp"
+            android:layout_marginRight="44sp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Your data will be Verified by us,"
+            android:textColor="#414453"
+            android:textSize="15dp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44sp"
+            android:layout_marginRight="44sp"
+            android:gravity="center"
+            android:text="Stay tune on your email!"
+            android:textColor="#414453"
+            android:textSize="15dp"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="44dp"
+            android:background="@color/b"
+            android:onClick="gotoMain"
+            android:text="Okay Thank you"
+            android:textColor="#FFF"
+            tools:ignore="OnClick" />
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

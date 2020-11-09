@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.servicemate">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.servicemate.about"></activity>
+        <activity android:name="com.example.servicemate.shophist" />
+        <activity android:name="com.example.servicemate.partspaid" />
+        <activity android:name="com.example.servicemate.shoppayment" />
+        <activity android:name="com.example.servicemate.parts" />
+        <activity android:name="com.example.servicemate.SitterVer" />
+        <activity android:name="com.example.servicemate.SitterRegister" />
+        <activity android:name="com.example.servicemate.review" />
+
+        <activity android:name="com.example.servicemate.intro" />
+        <activity android:name="com.example.servicemate.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.servicemate.passReset" />
+        <activity android:name="com.example.servicemate.ViewsSliderActivity" />
+        <activity android:name="com.example.servicemate.register" />
+        <activity android:name="com.example.servicemate.history" />
+        <activity android:name="com.example.servicemate.paid" />
+        <activity android:name="com.example.servicemate.Payment" />
+        <activity android:name="com.example.servicemate.List" />
+        <activity
+            android:name="com.example.servicemate.ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name="com.example.servicemate.MainActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

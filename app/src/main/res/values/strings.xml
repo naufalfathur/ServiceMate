@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ServiceMate</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Book</string>
+    <string name="title_notifications">Profile</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="my_string">hi</string>
+    <string name="lorem">Responsible babysitter with experience caring for children during weekends, evenings, and summer and winter breaks. Skilled in creating fun, engaging, and educational activities, while demonstrating priority in children’s safety and well-being. Trusted by parents, with mutual loving affection for all cared children.</string>
+    <string-array name="payment">
+        <item>Select payment methods :</item>
+        <item>FPX online</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+    </string-array>
+    <string-array name="service">
+        <item>Select Service Location :</item>
+        <item>FPX online</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+    </string-array>
+    <string-array name="brand">
+        <item>Select Car Brand :</item>
+        <item>Honda</item>
+        <item>Perodua</item>
+        <item>Toyota</item>
+        <item>BMW</item>
+        <item>Mercedez-Benz</item>
+    </string-array>
+    <string-array name="det">
+        Car Details:
+        Brand, Model : Perodua, Beza 2016
+        Plate No. : W WA 1990
+        Mileage : 570020
+    </string-array>
+    <string name="dateFormat" translatable="false">EE, dd MMM</string>
+    <string name="timeFormat" translatable="false">EE, dd MMM HH:mm</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+    <string name="title_activity_sitter_login">SitterLogin</string>
+
+</resources>

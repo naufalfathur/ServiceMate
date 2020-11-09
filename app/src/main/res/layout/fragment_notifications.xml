@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3397E3"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="1050dp"
+            android:background="#FFF"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_alignParentBottom="true"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:src="@drawable/profile" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="left"
+                android:text="Naufal Fathur"
+                android:layout_marginTop="20dp"
+                android:textColor="#87939A"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                tools:ignore="DuplicateIds,RtlCompat" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="left"
+                android:text="Verified"
+                android:textColor="@color/b"
+                android:textSize="15dp"
+                tools:ignore="DuplicateIds,RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginRight="44dp"
+                android:text="Address:"
+                android:textColor="@color/Dblue"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                tools:ignore="DuplicateIds" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="44dp"
+                android:textSize="12dp"
+                android:background="@drawable/line"
+                android:hint="10Th Floor Blok A Jln Tasek Mines Waterfront Bussines Park 43300 Seri Kembangan Seri Kembangan 43300"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="DuplicateIds" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="44dp"
+                android:layout_marginRight="44dp"
+                android:text="Phone Number:"
+                android:textColor="@color/Dblue"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                tools:ignore="DuplicateIds" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/line"
+                android:hint="0128232210"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                tools:ignore="DuplicateIds" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="left"
+                android:text="Car Description"
+                android:layout_marginTop="20dp"
+                android:textColor="#87939A"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                tools:ignore="DuplicateIds,RtlCompat" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="left"
+                android:text="Perodua Bezza 2016"
+                android:textColor="#87939A"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                tools:ignore="DuplicateIds,RtlCompat" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:gravity="left"
+                android:text="WA 1990"
+                android:textColor="#87939A"
+                android:textSize="15dp"
+                tools:ignore="DuplicateIds,RtlCompat" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/line"
+                android:hint="Mileage : 570020"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                tools:ignore="DuplicateIds" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yell"
+                android:onClick="save"
+                android:orientation="vertical"
+                tools:ignore="DuplicateIds,OnClick">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="19dp"
+                    android:text="Save Profile"
+                    android:textAlignment="center"
+                    android:textColor="@color/b"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    tools:ignore="DuplicateIds"
+                    android:gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yell"
+                android:onClick="book"
+                android:orientation="vertical"
+                tools:ignore="DuplicateIds,OnClick">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="19dp"
+                    android:text="Booking"
+                    android:textAlignment="center"
+                    android:textColor="@color/b"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    tools:ignore="DuplicateIds"
+                    android:gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yell"
+                android:onClick="shopH"
+                android:orientation="vertical"
+                tools:ignore="DuplicateIds,OnClick">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="19dp"
+                    android:text="Shop"
+                    android:textAlignment="center"
+                    android:textColor="@color/b"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    tools:ignore="DuplicateIds"
+                    android:gravity="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yell"
+                android:onClick="logout2"
+                android:orientation="vertical"
+                tools:ignore="DuplicateIds,OnClick">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="19dp"
+                    android:text="Log Out"
+                    android:textAlignment="center"
+                    android:textColor="@color/b"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    tools:ignore="DuplicateIds"
+                    android:gravity="center" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="19dp"
+                android:text="About"
+                android:onClick="about"
+                android:textAlignment="center"
+                android:textColor="@color/b"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                tools:ignore="DuplicateIds"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
